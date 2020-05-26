@@ -76,6 +76,11 @@
   
 }
 
+.projects-grid
+{
+  display: flex;
+}
+
 
 
 
