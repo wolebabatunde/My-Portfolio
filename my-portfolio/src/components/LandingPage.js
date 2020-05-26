@@ -19,6 +19,31 @@ class LandingPage extends Component {
                             <hr/>
 
                             <p>HTML / HTML5 | CSS / CSS3 | BOOTSTRAP | REACT | ADOBE XD | FIGMA</p>
+
+
+                            <div className="social-links">
+
+                                {/* Linkedln */}
+                                <a href="https://www.linkedin.com/in/kolawole-yekini-06812043/" rel="noopener noreferrer" target="_blank">
+                                <i class="fa fa-linkedin fa-3x" aria-hidden="true"></i>
+                                </a>
+
+                                {/* Github */}
+                                <a href="https://github.com/wolebabatunde" rel="noopener noreferrer" target="_blank">
+                                <i class="fa fa-github fa-3x" aria-hidden="true"></i>
+                                </a>
+
+                                {/* Behance */}
+                                <a href="https://www.behance.net/kolawoleyekini/" rel="noopener noreferrer" target="_blank">
+                                <i class="fa fa-behance fa-3x" aria-hidden="true"></i>
+                                </a>
+
+                                {/* Twitter */}
+                                <a href="https://twitter.com/Anonymous_S7" rel="noopener noreferrer" target="_blank">
+                                <i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
+                                </a>
+
+                            </div>
                             
                         </div>
                         
