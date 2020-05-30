@@ -81,13 +81,25 @@
   display: flex;
 }
 
+/* RESUME PAGE CSS */
+
+.resume-right-col{
+  background: #27221f;
+  color: white;
+  padding: 2em;
+  
+}
+
+/* RESUME PAGE CSS */
+
+
 
 /* CONTACT PAGE CSS */
 
 .contact-body{
   margin: auto;
   /* background: gray; */
-  /* position: fixed; */
+  position: fixed;
   width: 100%;
   height: 100%;
   justify-content: center;
