@@ -11,65 +11,65 @@ class Project extends Component {
     }
     toggleCategories() {
 
-        
+
         if (this.state.activeTab === 0) {
             return (
-                <div  className="projects-grid">
+                <div className="projects-grid">
 
-                {/* Projects 1 */}
+                    {/* Projects 1 */}
 
-                <Card shadow={7} style={{ minwidth: '420px', margin: 'auto' }}>
-                    <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://blog.addthiscdn.com/wp-content/uploads/2014/11/addthis-react-flux-javascript-scaling.png) center / cover' }}>Welcome</CardTitle>
-                    <CardText>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Mauris sagittis pellentesque lacus eleifend lacinia...
+                    <Card shadow={7} style={{ minwidth: '420px', margin: 'auto' }}>
+                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://blog.addthiscdn.com/wp-content/uploads/2014/11/addthis-react-flux-javascript-scaling.png) center / cover' }}>Welcome</CardTitle>
+                        <CardText>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Mauris sagittis pellentesque lacus eleifend lacinia...
                 </CardText>
-                    <CardActions border>
-                        <Button colored>GitHub</Button>
-                        <Button colored>Live Demo</Button>
-                    </CardActions>
-                    <CardMenu style={{ color: '#fff' }}>
-                        <IconButton name="share" />
-                    </CardMenu>
-                </Card>
-                {/* Projects 1 */}
-                
-                <Card shadow={7} style={{ minwidth: '420px', margin: 'auto' }}>
-                    <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://blog.addthiscdn.com/wp-content/uploads/2014/11/addthis-react-flux-javascript-scaling.png) center / cover' }}>Welcome</CardTitle>
-                    <CardText>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Mauris sagittis pellentesque lacus eleifend lacinia...
-                </CardText>
-                    <CardActions border>
-                        <Button colored>GitHub</Button>
-                        <Button colored>Live Demo</Button>
-                    </CardActions>
-                    <CardMenu style={{ color: '#fff' }}>
-                        <IconButton name="share" />
-                    </CardMenu>
-                </Card>
+                        <CardActions border>
+                            <Button colored>GitHub</Button>
+                            <Button colored>Live Demo</Button>
+                        </CardActions>
+                        <CardMenu style={{ color: '#fff' }}>
+                            <IconButton name="share" />
+                        </CardMenu>
+                    </Card>
+                    {/* Projects 2 */}
 
-                {/* Projects 1 */}
-                
-                <Card shadow={7} style={{ minwidth: '420px', margin: 'auto' }}>
-                    <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://blog.addthiscdn.com/wp-content/uploads/2014/11/addthis-react-flux-javascript-scaling.png) center / cover' }}>Welcome</CardTitle>
-                    <CardText>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Mauris sagittis pellentesque lacus eleifend lacinia...
+                    <Card shadow={7} style={{ minwidth: '420px', margin: 'auto' }}>
+                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://blog.addthiscdn.com/wp-content/uploads/2014/11/addthis-react-flux-javascript-scaling.png) center / cover' }}>Welcome</CardTitle>
+                        <CardText>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Mauris sagittis pellentesque lacus eleifend lacinia...
                 </CardText>
-                    <CardActions border>
-                        <Button colored>GitHub</Button>
-                        <Button colored>Live Demo</Button>
-                    </CardActions>
-                    <CardMenu style={{ color: '#fff' }}>
-                        <IconButton name="share" />
-                    </CardMenu>
-                </Card>
+                        <CardActions border>
+                            <Button colored>GitHub</Button>
+                            <Button colored>Live Demo</Button>
+                        </CardActions>
+                        <CardMenu style={{ color: '#fff' }}>
+                            <IconButton name="share" />
+                        </CardMenu>
+                    </Card>
+
+                    {/* Projects 3 */}
+
+                    <Card shadow={7} style={{ minwidth: '420px', margin: 'auto' }}>
+                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://blog.addthiscdn.com/wp-content/uploads/2014/11/addthis-react-flux-javascript-scaling.png) center / cover' }}>Welcome</CardTitle>
+                        <CardText>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Mauris sagittis pellentesque lacus eleifend lacinia...
+                </CardText>
+                        <CardActions border>
+                            <Button colored>GitHub</Button>
+                            <Button colored>Live Demo</Button>
+                        </CardActions>
+                        <CardMenu style={{ color: '#fff' }}>
+                            <IconButton name="share" />
+                        </CardMenu>
+                    </Card>
 
 
                 </div>
 
-               
+
 
 
 

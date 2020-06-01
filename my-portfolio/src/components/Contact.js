@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Cell, List, ListItem, ListItemContent,  } from 'react-mdl';
+import { Grid, Cell, List, ListItem, ListItemContent, } from 'react-mdl';
 
 class Contact extends Component {
     render() {
@@ -16,7 +16,7 @@ class Contact extends Component {
                             Available 24/7
                         </p>
                     </Cell>
-                    
+
                     <Cell col={6}>
 
 
@@ -25,26 +25,26 @@ class Contact extends Component {
 
                         <List>
                             <ListItem>
-                                <ListItemContent style={{fontFamily:'Anton', fontSize:'25px',}}>
-                                <i class="fa fa-phone-square" aria-hidden="true" style={{paddingRight:'5rem'}}></i>
+                                <ListItemContent style={{ fontFamily: 'Anton', fontSize: '25px', }}>
+                                    <i class="fa fa-phone-square" aria-hidden="true" style={{ paddingRight: '5rem' }}></i>
                                  (+235 705 5754 685)
                                 </ListItemContent>
                             </ListItem>
 
                             <ListItem>
-                                <ListItemContent style={{fontFamily:'Anton', fontSize:'25px',}}>
-                                <i class="fa fa-envelope" aria-hidden="true" style={{paddingRight:'5rem'}}></i>
+                                <ListItemContent style={{ fontFamily: 'Anton', fontSize: '25px', }}>
+                                    <i class="fa fa-envelope" aria-hidden="true" style={{ paddingRight: '5rem' }}></i>
                                  kolawole_yekini@yahoo.com
                                 </ListItemContent>
                             </ListItem>
 
                             <ListItem>
-                                <ListItemContent style={{fontFamily:'Anton', fontSize:'25px',}}>
-                                <i class="fa fa-twitter-square" aria-hidden="true" style={{paddingRight:'5rem'}}></i>
+                                <ListItemContent style={{ fontFamily: 'Anton', fontSize: '25px', }}>
+                                    <i class="fa fa-twitter-square" aria-hidden="true" style={{ paddingRight: '5rem' }}></i>
                                  @Anonymous_S7
                                 </ListItemContent>
                             </ListItem>
-                           
+
                         </List>
                     </Cell>
                 </Grid>

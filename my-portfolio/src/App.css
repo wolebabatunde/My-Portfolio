@@ -79,7 +79,10 @@
 .projects-grid
 {
   display: flex;
+  
 }
+
+
 
 /* RESUME PAGE CSS */
 
@@ -136,6 +139,12 @@
 
 
 /* CONTACT PAGE CSS */
+
+
+.mdl-card_media{
+  width: 100%;
+  height: 100%;
+}
 
 
 
